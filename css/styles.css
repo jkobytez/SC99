@@ -1,0 +1,52 @@
+@charset "UTF-8";/*
+* Default stylesheet for SC99
+* Copyright 2017-2022 Kyodirect
+* Copyright 2022 jko64
+*/
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container {
+    width: 650px;
+    margin: auto;
+}
+.nav {
+    color: white;
+    background: #000;
+    padding: 5px;
+}
+.navlink {
+    text-decoration: none;
+    color: #FFF;
+}
+.extranav {
+    height: 30px;
+    background-color: grey;
+    color: white;
+    padding: 4px;
+}
+.imgheader {
+    padding-bottom: 0px;
+}
+.active {
+    border-bottom: 1px solid blue;
+}
+.sidebar {
+    float: left;
+  }
+  
+.content {
+    float: left;
+    padding-left: 7px;
+}
+  
+.sidebar2 {
+    float: right;
+    padding-left: 5px;
+}
+.footer {
+    border: none;
+}
